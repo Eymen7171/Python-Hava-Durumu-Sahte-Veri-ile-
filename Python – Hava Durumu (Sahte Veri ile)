@@ -1,0 +1,8 @@
+weather_data = {
+    "Istanbul": "Sunny, 25°C",
+    "Ankara": "Cloudy, 20°C",
+    "Izmir": "Rainy, 18°C"
+}
+
+city = "Istanbul"
+print(f"{city} weather: {weather_data[city]}")
